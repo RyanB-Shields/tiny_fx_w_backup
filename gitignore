@@ -207,4 +207,4 @@ marimo/_lsp/
 __marimo__/
 
 # Other 
-secrets.py
+*secrets*

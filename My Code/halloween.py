@@ -20,7 +20,7 @@ D6 = 1174   # D6
 
 # The sequence of notes for the theme
 TONES = (CS6, FS5, FS5, CS6, FS5, FS5, CS6, FS5, D6, FS5)
-VOLUME = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 )   # The volume of each tone to play (tune to your speaker)
+VOLUME = (0.5,) * len(TONES)  # The volume of each tone to play (tune to your speaker)
 DURATIONS = (0.4,0.4,0.5,0.4,0.4,0.4,0.4,0.5,0.4,0.5)               # The duration of each tone (in seconds)
 OUTPUTS = (2, 3, 1, 6, 4, 0) 			  	                        # Which output to light with each tone
 RGBS = (MAGENTA, YELLOW)                                            # Which R, G, B colours to show for each tone
